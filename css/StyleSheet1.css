@@ -1,0 +1,105 @@
+﻿#bilQuestionStyle {
+    height: 400px;
+    width: 280px;
+}
+.bubble {
+    position: relative;
+    width: 250px;
+    height: 195px;
+    padding: 0px;
+    background: #9adee7;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+}
+    .bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 0 20px 39px;
+        border-color: transparent #9adee7;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-top: -20px;
+        right: -39px;
+        top: 66%;
+    }
+.bubbleRight {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    padding: 0px;
+    background: #9adee7;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+}
+    .bubbleRight:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 46px 20px 0;
+        border-color: transparent #9adee7;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-top: -20px;
+        left: -46px;
+        top: 73%;
+    }
+#logoStyle {
+    height: 40px;
+    width: 40px;
+}
+#mainDivStyle {
+    height: 520px;
+}
+#q1 {
+    margin-right: 10px;
+    margin-top: 25px;
+    padding-left: 10px
+}
+#q3 {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: none;
+}
+#q2 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-left: 20px;
+    display: none;
+}
+#q4 {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    display: none;
+}
+#q1labelStyle, #q2labelStyle, #q3labelStyle, #q4labelStyle {
+    margin-top: 30px;
+}
+#ImageButton2 {
+    height: 400px;
+    width: 280px;
+}
+#fsStyle, #psStyle, #ssStyle, #szsStyle {
+    margin-top: 20px;
+
+}
+#purposeSelected, #styleSelected, #fuelSelected, #sizeSelected, #submitStyle {
+    display: none;
+}
+#tryagainStyle {
+    text-decoration:none;
+    cursor: pointer;
+    color:red;
+    margin-left:20px;
+}
+
+#submitStyle {
+    margin-top: 50px;
+    width: 100%;
+    animation-delay:0.7s;
+}

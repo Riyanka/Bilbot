@@ -7,14 +7,12 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
-
 namespace BilBot
 {
     public partial class ShowCarDetails : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
             fuel.Text = Request.QueryString["fuel"];
             style.Text= Request.QueryString["style"];
             TextSize.Text = Request.QueryString["size"];
@@ -30,25 +28,18 @@ namespace BilBot
             {
                 Label1.Visible = true;
                 Image1.Visible = true;
+                
             }
             else
             {
-               
                 GridView1.DataSource = Dr;
                 GridView1.DataBind();
-               
                 Dr.Close();
                 con.Close();
-                
             }
-
-
-               
             }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

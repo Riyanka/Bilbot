@@ -81,6 +81,7 @@
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
+    <Content Include="css\StyleSheet1.css" />
     <Content Include="Datatable\css\jquery.dataTables.min.css" />
     <Content Include="Datatable\js\jquery.dataTables.min.js" />
     <Content Include="Fontawesome\attribution.js" />
@@ -1736,8 +1737,8 @@
     <Content Include="Images\EVE-icon.png" />
     <Content Include="Images\Get-Started-Button-02.png" />
     <Content Include="Images\GSEve.png" />
-    <Content Include="Images\logo.jpg" />
     <Content Include="Images\logobb.png" />
+    <Content Include="JavaScript\JavaScript.js" />
     <Content Include="ShowCarDetails.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
